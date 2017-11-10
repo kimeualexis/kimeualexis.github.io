@@ -226,6 +226,17 @@ a:hover {
     left: 50px
 }
 
+#title {
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: darkcyan;
+}
+
+#hq {
+    color: lightseagreen;
+    font-weight: bold;
+}
+
 #carousel-slider .carousel-control.right i {
     right: 50px;
 }
@@ -258,6 +269,8 @@ a:hover {
 .lead {
     text-align: center;
     font-size: 16px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-bottom: 50px;
 }
 
@@ -365,6 +378,11 @@ a.accordion-toggle i {
     margin-bottom: 30px;
 }
 
+#act-head {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 #services h3 {
     margin-bottom: 30px;
 }
@@ -374,7 +392,7 @@ a.accordion-toggle i {
 }
 
 #text {
-    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #home {
@@ -495,8 +513,17 @@ footer h4 {
     color: #fff;
 }
 
+#acts {
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 .contact-info {
     color: #333;
+}
+
+#qm {
+    color: darkcyan;
 }
 
 .contact-info ul {
@@ -556,7 +583,7 @@ ul.sidebar-gallery {
 
 #quote {
     color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 16px;
 }
 
@@ -572,7 +599,7 @@ ul.social-network {
 }
 
 #edu {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 16px;
 }
 
@@ -587,7 +614,7 @@ ul.social-network li a {
     color: #d0d0d0;
 }
 
-.social-network li:hover {
+.social-network li a:hover {
     color: #00abf0;
 }
 
