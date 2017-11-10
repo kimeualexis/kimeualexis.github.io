@@ -15,7 +15,7 @@
 
 @import url('animate.css');
 body {
-    font-family: 'Open Sans', Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 14px;
     font-weight: 300;
     line-height: 1.6em;
@@ -228,7 +228,7 @@ a:hover {
 
 #title {
     font-weight: bold;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     color: darkcyan;
 }
 
@@ -270,7 +270,7 @@ a:hover {
     text-align: center;
     font-size: 16px;
     font-weight: bold;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     margin-bottom: 50px;
 }
 
@@ -380,7 +380,7 @@ a.accordion-toggle i {
 
 #act-head {
     color: black;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #services h3 {
@@ -392,7 +392,7 @@ a.accordion-toggle i {
 }
 
 #text {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #home {
@@ -489,6 +489,15 @@ textarea#message {
     padding: 10px;
 }
 
+#education {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+#subhead {
+    font-family: 'Times New Roman', Times, serif;
+}
+
 .center h3 {
     margin-top: 0;
     margin-bottom: 20px;
@@ -514,8 +523,8 @@ footer h4 {
 }
 
 #acts {
-    font-size: 16px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .contact-info {
@@ -583,7 +592,7 @@ ul.sidebar-gallery {
 
 #quote {
     color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 16px;
 }
 
@@ -599,8 +608,8 @@ ul.social-network {
 }
 
 #edu {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
 }
 
 ul.social-network li {
