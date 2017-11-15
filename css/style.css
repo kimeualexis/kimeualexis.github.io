@@ -471,9 +471,8 @@ i {
     color: #333;
 }
 
-.i.fa:hover {
-    background: #fff;
-    color: #d9ae6a;
+i.fa:hover {
+    color: lightseagreen;
     -webkit-transition: color 300ms, background-color 300ms;
     -moz-transition: color 300ms, background-color 300ms;
     -o-transition: color 300ms, background-color 300ms;
