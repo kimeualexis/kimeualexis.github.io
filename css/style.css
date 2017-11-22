@@ -313,6 +313,7 @@ a.accordion-toggle i {
 #head {
     color: lightseagreen;
     font-weight: bold;
+    font-size: 30px;
 }
 
 .panel-heading.active a.accordion-toggle i {
