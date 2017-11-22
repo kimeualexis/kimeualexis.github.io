@@ -11,8 +11,6 @@ body {
     font-size: 14px;
     font-weight: 300;
     line-height: 1.6em;
-    color: #fff;
-    background-color: #fff;
     overflow-x: hidden;
 }
 
@@ -30,6 +28,39 @@ h6 {
     color: lightseagreen;
     font-family: 'Times New Roman', Times, serif;
     font-size: 45px;
+}
+
+#gallery-head {
+    color: lightseagreen;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+}
+
+#gallery {
+    background: #f6f6f6;
+}
+
+#photo {
+    height: 200px;
+    width: 360px;
+    padding: 3px;
+}
+
+.item:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: all 1s ease;
+    /* Safari and Chrome */
+    -moz-transition: all 1s ease;
+    /* Firefox */
+    -ms-transition: all 1s ease;
+    /* IE 9 */
+    -o-transition: all 1s ease;
+    /* Opera */
+    transition: all 1s ease;
+    -webkit-transform: scale3d(1.2, 1.2, 1);
+    transform: scale3d(1.2, 1.2, 1);
 }
 
 p {
@@ -166,61 +197,6 @@ a:hover {
     -o-transition: all 0.3s ease-in-out;
 }
 
-
-/*===========================
-  Slider
-============================ */
-
-.slider {
-    position: relative;
-    padding: 50px;
-    background: #f8f8f8;
-    padding-top: 130px;
-}
-
-.slider img {
-    width: 100%;
-}
-
-#carousel-slider {
-    position: relative;
-}
-
-#carousel-slider .carousel-indicators {
-    bottom: -35px;
-}
-
-#carousel-slider .carousel-indicators li {
-    border: 1px solid #ffbd20;
-}
-
-#carousel-slider a i {
-    border: 1px solid #d9ae6a;
-    border-radius: 50%;
-    font-size: 28px;
-    height: 50px;
-    padding: 8px;
-    position: absolute;
-    top: 50%;
-    width: 50px;
-    color: #fff;
-    background: #d9ae6a;
-}
-
-#carousel-slider a i:hover {
-    background: #deae62;
-    color: #fff;
-    border: 1px solid #d9ae6a;
-}
-
-#carousel-slider .carousel-control {
-    width: inherit;
-}
-
-#carousel-slider .carousel-control.left i {
-    left: 50px
-}
-
 #title {
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
@@ -231,15 +207,6 @@ a:hover {
 #hq {
     color: lightseagreen;
     font-weight: bold;
-}
-
-#carousel-slider .carousel-control.right i {
-    right: 50px;
-}
-
-#carousel-slider .carousel-control.left,
-#carousel-slider .carousel-control.right {
-    background: none;
 }
 
 
@@ -374,8 +341,8 @@ a.accordion-toggle i {
 }
 
 #services img {
-    padding-top: 30px;
-    margin-bottom: 30px;
+    padding-top: 20px;
+    margin-bottom: 20px;
 }
 
 #act-head {
@@ -395,13 +362,19 @@ a.accordion-toggle i {
     font-family: 'Times New Roman', Times, serif;
 }
 
-#home {
-    max-height: 30%;
+.header {
+    max-height: 20%;
+    width: 100%;
+    background: url('../img/head.jpg');
+    position: relative;
+    background-size: cover;
 }
 
 #head-image {
+    height: 30%;
     position: relative;
     text-align: center;
+    width: 100%;
 }
 
 #head-text {
@@ -477,11 +450,6 @@ i.fa:hover {
     -moz-transition: color 300ms, background-color 300ms;
     -o-transition: color 300ms, background-color 300ms;
     transition: color 300ms, background-color 300ms;
-}
-
-#contact {
-    background: #4B4A4A;
-    padding: 100px;
 }
 
 
