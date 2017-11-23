@@ -27,6 +27,7 @@
     
     .resume {
         position: relative;
+        background: #f6f6f6;
     }
     
     .resume:before {
