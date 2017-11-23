@@ -27,6 +27,9 @@
     
     .resume {
         position: relative;
+    }
+    
+    .section {
         background: #f6f6f6;
     }
     
@@ -115,7 +118,7 @@
     .timeline>li .posted-date {
         position: relative;
         text-align: center;
-        background-color: #fff;
+        background: #f6f6f6;
         left: 20px;
     }
     
@@ -125,6 +128,7 @@
         font-weight: 700;
         display: block;
         color: #2c3e50;
+        background: #f6f6f6;
         top: 0;
         float: left;
     }
